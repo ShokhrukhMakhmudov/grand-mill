@@ -34,11 +34,11 @@ const Footer = () => {
           <div>
             <Link
               target="_blank"
-              href="https://divgroup.vercel.app/"
+              href="https://t.me/shox_dev"
               className="footer-logo hover:text-primary ">
               <Div />
               <span className="text-3xl font-semibold">DIV</span>
-              <span className="text-2xl">Разработка сайтов</span>
+              <span className="text-2xl">Sayt yaratish</span>
             </Link>
           </div>
           <div className="flex items-center gap-5 lg:gap-10 text-white">

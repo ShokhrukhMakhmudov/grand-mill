@@ -10,7 +10,6 @@ import { IMAGES } from "./Images";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./style.css";
 
 const Products = () => {
   const ref = useRef(null);
@@ -30,7 +29,7 @@ const Products = () => {
     slidesToShow: 3,
     slidesToScroll: IMAGES.length,
     autoplay: true,
-    speed: 30000,
+    speed: 40000,
     autoplaySpeed: 100,
     cssEase: "linear",
     pauseOnHover: true,
@@ -57,6 +56,7 @@ const Products = () => {
           {IMAGES.map((_, ind) => {
             return (
               <img
+                key={ind}
                 className="hover:scale-125 transition-all"
                 src={IMAGES[ind].src}
                 width={350}

@@ -57,21 +57,21 @@ function Header() {
           <div className="hidden lg:flex lg:gap-x-12">
             <Link
               variants={item}
+              href="#products"
+              className="text-lg font-medium hover:text-primary leading-6 text-gray-900">
+              Mahsulotlar
+            </Link>
+            <Link
+              variants={item}
               href="#about"
               className="text-lg font-medium hover:text-primary leading-6 text-gray-900">
               Biz haqimizda
             </Link>
             <Link
               variants={item}
-              href="#services"
+              href="#production"
               className="text-lg font-medium hover:text-primary leading-6 text-gray-900">
               Ishlab chiqarish
-            </Link>
-            <Link
-              variants={item}
-              href="#products"
-              className="text-lg font-medium hover:text-primary leading-6 text-gray-900">
-              Mahsulotlar
             </Link>
             <Link
               variants={item}
