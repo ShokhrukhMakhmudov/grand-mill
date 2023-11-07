@@ -4,7 +4,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 import { FcPlus } from "react-icons/fc";
 import BackgroundVideo from "./BackgroundVideo/index";
 import { Fondamento } from "next/font/google";
-
+import { WHEATS } from "./Images";
 const logoFont = Fondamento({ subsets: ["latin"], weight: "400" });
 
 const About = () => {
@@ -30,7 +30,31 @@ const About = () => {
       animate={mainControls}
       transition={{ duration: 0.5, delay: 0.5 }}
       className="py-10 md:py-20">
-      <div className="container mx-auto px-6 lg:px-8">
+      <div className="container mx-auto px-6 lg:px-8 relative">
+        <img
+          className="absolute left-0"
+          src={WHEATS[0].src}
+          alt="wheat"
+          width={128}
+        />
+        <img
+          className="absolute right-0"
+          src={WHEATS[0].src}
+          alt="wheat"
+          width={128}
+        />
+        <img
+          className="absolute bottom-[-80px] right-0 rotate-180"
+          src={WHEATS[0].src}
+          alt="wheat"
+          width={128}
+        />
+        <img
+          className="absolute bottom-[-80px] left-0 rotate-180"
+          src={WHEATS[0].src}
+          alt="wheat"
+          width={128}
+        />
         <div className="mx-auto text-center mb-10">
           <p className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Biz haqimizda

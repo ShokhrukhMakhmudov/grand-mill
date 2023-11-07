@@ -5,7 +5,7 @@ import { Fondamento } from "next/font/google";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { IMAGES } from "./Images";
+import { TECHNOLOGIES } from "../Images";
 // const logoFont = Fondamento({ subsets: ["latin"], weight: "400" });
 
 const Production = () => {
@@ -25,7 +25,7 @@ const Production = () => {
     dots: false,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: IMAGES.length,
+    slidesToScroll: TECHNOLOGIES.length,
     autoplay: true,
     speed: 40000,
     autoplaySpeed: 100,
@@ -60,12 +60,12 @@ const Production = () => {
         </div>
         <div className="w-full overflow-hidden py-5 border-y-4 border-primary">
           <Slider {...settings}>
-            {IMAGES.map((_, ind) => {
+            {TECHNOLOGIES.map((_, ind) => {
               return (
                 <img
                   key={ind}
-                  className="block pe-5 hover:scale-125 transition-all object-cover object-center overflow-hidden w-[300px] h-[220px]"
-                  src={IMAGES[ind].src}
+                  className="block pe-5 hover:scale-125 transition-all object-cover object-center w-[300px] h-[220px]"
+                  src={TECHNOLOGIES[ind].src}
                 />
               );
             })}

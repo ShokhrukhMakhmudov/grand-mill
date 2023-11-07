@@ -6,7 +6,7 @@ import {
   useAnimation,
   useInView,
 } from "framer-motion";
-import { IMAGES } from "./Images";
+import { PRODUCTS, WHEATS } from "../Images";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,7 +27,7 @@ const Products = () => {
     dots: false,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: IMAGES.length,
+    slidesToScroll: PRODUCTS.length,
     autoplay: true,
     speed: 40000,
     autoplaySpeed: 100,
@@ -46,19 +46,19 @@ const Products = () => {
       initial="hidden"
       animate={mainControls}
       transition={{ duration: 0.5, delay: 0.5 }}
-      className="py-12">
-      <div className="container">
+      className="py-12 ">
+      <div className="container relative">
         <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-16">
           Bizning mahsulotlar
         </h2>
 
         <Slider {...settings}>
-          {IMAGES.map((_, ind) => {
+          {PRODUCTS.map((_, ind) => {
             return (
               <img
                 key={ind}
                 className="hover:scale-125 transition-all"
-                src={IMAGES[ind].src}
+                src={PRODUCTS[ind].src}
                 width={350}
               />
             );
