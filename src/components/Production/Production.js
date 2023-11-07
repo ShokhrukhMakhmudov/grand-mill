@@ -64,7 +64,7 @@ const Production = () => {
               return (
                 <img
                   key={ind}
-                  className="block pe-5 hover:scale-125 transition-all object-cover object-center w-[300px] h-[220px]"
+                  className="block pe-5 hover:scale-125 transition-all object-cover object-center w-[200px] h-[120px] sm:w-[300px] sm:h-[220px]"
                   src={TECHNOLOGIES[ind].src}
                 />
               );

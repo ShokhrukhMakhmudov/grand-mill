@@ -32,12 +32,12 @@ function Contacts() {
           Biz bilan bog'lanish
         </h2>
         <div className="flex flex-col gap-10 lg:flex-row justify-between">
-          <div className="bg-[#ecb657] p-10 flex flex-col gap-10 w-full lg:w-1/2 ">
-            <div className="text-black text-2xl font-medium border-b-2">
+          <div className="bg-[#ecb657] p-5 sm:p-10 flex flex-col gap-10 w-full lg:w-1/2 ">
+            <div className="text-black text-xl sm:text-2xl font-medium border-b-2">
               <p>Email:</p>
               <p className="text-white">example@gmail.com</p>
             </div>
-            <div className="text-black text-2xl font-medium  border-b-2">
+            <div className="text-black text-xl sm:text-2xl font-medium  border-b-2">
               <p>Telefon raqam:</p>
               <Link
                 href="tel:+998909999999"
@@ -45,7 +45,7 @@ function Contacts() {
                 +998 90 999 99 99
               </Link>
             </div>
-            <div className="text-black text-2xl font-medium border-b-2">
+            <div className="text-black text-xl sm:text-2xl font-medium border-b-2">
               <p>Manzil:</p>
               <p className="text-white">Farg'ona shaxar, lorem ipsum 7</p>
             </div>

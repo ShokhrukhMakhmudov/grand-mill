@@ -19,27 +19,23 @@ const variants = {
 };
 const itemIds = [
   {
-    text: "Главная",
-    icon: <AiOutlineHome />,
-    link: "#",
-  },
-  {
-    text: "О компани",
-    icon: <AiOutlineInfoCircle />,
-    link: "#about",
-  },
-  {
-    text: "Услуги",
-    icon: <MdOutlineFeaturedPlayList />,
-    link: "#services",
-  },
-  {
-    text: "Продукты",
+    text: "Mahsulotlar",
     icon: <MdOutlineShoppingCart />,
     link: "#products",
   },
   {
-    text: "Контакты",
+    text: "Biz haqimizda",
+    icon: <AiOutlineInfoCircle />,
+    link: "#about",
+  },
+  {
+    text: "Ishlab chiqarish",
+    icon: <MdOutlineFeaturedPlayList />,
+    link: "#production",
+  },
+
+  {
+    text: "Kontaktlar",
     icon: <AiOutlinePhone />,
     link: "#contacts",
   },
