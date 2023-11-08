@@ -4,7 +4,6 @@ import Carousel from "./index";
 import { Fondamento } from "next/font/google";
 
 const logoFont = Fondamento({ subsets: ["latin"], weight: "400" });
-
 function Hero() {
   return (
     <motion.section
@@ -17,14 +16,13 @@ function Hero() {
         initial={{ translateX: "-300%" }}
         animate={{ translateX: 0 }}
         transition={{ delay: 0.5, duration: 1 }}
-        className="md:w-2/5 absolute top-20 lg:top-40 lg:left-12 ">
+        className="md:w-2/5 absolute top-10 sm:top-20 lg:top-40 lg:left-12 ">
         <div className="container">
           <h1
-            className={`${logoFont.className} text-[#000] text-2xl md:text-4xl bg-primary inline-block p-3 mb-3`}>
+            className={`${logoFont.className} text-2xl text-[#000] md:text-4xl bg-primary inline-block p-3 mb-3`}>
             Grand Mill Group
           </h1>
           <p className="hero-desc text-[white] text-xl md:text-3xl font-medium">
-            {/* Birinchi navli bug'doy uni */}
             Kompaniyasi O'zbekiston bozorida eng yirik un ishlab
             chiqaruvchilardan biri hisoblanadi.
           </p>

@@ -1,10 +1,6 @@
 import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
-import {
-  AiOutlineHome,
-  AiOutlineInfoCircle,
-  AiOutlinePhone,
-} from "react-icons/ai";
+import { AiOutlineInfoCircle, AiOutlinePhone } from "react-icons/ai";
 import {
   MdOutlineFeaturedPlayList,
   MdOutlineShoppingCart,

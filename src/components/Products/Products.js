@@ -10,11 +10,11 @@ import { PRODUCTS, WHEATS } from "../Images";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Composition from "./Composition";
 
 const Products = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
   const mainControls = useAnimation();
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const Products = () => {
       transition={{ duration: 0.5, delay: 0.5 }}
       className="py-12 ">
       <div className="container relative">
-        <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-16">
+        <h2 className="text-center text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Bizning mahsulotlar
         </h2>
 
@@ -64,6 +64,8 @@ const Products = () => {
             );
           })}
         </Slider>
+
+        <Composition />
       </div>
     </motion.section>
   );

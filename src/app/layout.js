@@ -5,7 +5,7 @@ const font = Salsa({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Grand Mill Group",
-  description: "Un ishlab chiqarish",
+  description: "Un ishlab chiqarish, birinchi navli bug'doy uni",
 };
 
 export default function RootLayout({ children }) {

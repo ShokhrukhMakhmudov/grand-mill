@@ -53,7 +53,7 @@ const Footer = () => {
               <BsInstagram />
             </Link>
             <Link
-              href="https://www.youtube.com/watch?v=cYnVeIktALA"
+              href="https://www.youtube.com"
               className="text-2xl hover:text-primary">
               <BsYoutube />
             </Link>

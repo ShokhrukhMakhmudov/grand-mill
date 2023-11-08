@@ -61,14 +61,14 @@ const About = () => {
           </p>
         </div>
         <section className="w-full relative">
-          <BackgroundVideo />
+          {<BackgroundVideo /> ?? "Loading"}
           <div className="absolute bg-[#000000a2] top-0 bottom-0 left-0 right-0 flex items-center justify-center">
-            <div className="text-white w-4/5 sm:w-3/5 sm:text-center">
+            <div className="text-white w-full p-3 sm:w-3/5 sm:text-center">
               <h1
                 className={`${logoFont.className} text-[#000] text-sm md:text-4xl bg-primary inline-block p-1 sm:p-3 sm:mb-3`}>
                 Grand Mill Group
               </h1>
-              <p className="hero-desc text-[white] text-xs md:text-2xl lg:text-3xl font-medium">
+              <p className="hero-desc text-[white] text-[10px] sm:text-xs md:text-xl lg:text-2xl font-medium">
                 {/* Birinchi navli bug'doy uni */}
                 "Grand Mill Group" -bu O`zbekistondagi eng zamonaviy
                 tegirmonlardan biri bo`lib, o`z mahsulotlarini dunyoning eng
