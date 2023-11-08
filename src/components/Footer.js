@@ -43,12 +43,12 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-5 lg:gap-10 text-white">
             <Link
-              href="https://t.me/apolloninjiniring"
+              href="https://t.me/grandmill"
               className="text-2xl hover:text-primary">
               <BsTelegram />
             </Link>
             <Link
-              href="https://instagram.com/apollon_injiniring?igshid=MzRlODBiNWFlZA=="
+              href="https://www.instagram.com/reel/CyXi3JtNVju/?igshid=MTc4MmM1YmI2Ng=="
               className="text-2xl hover:text-primary">
               <BsInstagram />
             </Link>

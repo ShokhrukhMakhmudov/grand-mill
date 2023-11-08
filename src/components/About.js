@@ -63,15 +63,21 @@ const About = () => {
         <section className="w-full relative">
           <BackgroundVideo />
           <div className="absolute bg-[#000000a2] top-0 bottom-0 left-0 right-0 flex items-center justify-center">
-            <div className="text-white w-3/5 text-center">
+            <div className="text-white w-4/5 sm:w-3/5 sm:text-center">
               <h1
-                className={`${logoFont.className} text-[#000] text-sm md:text-4xl bg-primary inline-block p-3 mb-3`}>
+                className={`${logoFont.className} text-[#000] text-sm md:text-4xl bg-primary inline-block p-1 sm:p-3 sm:mb-3`}>
                 Grand Mill Group
               </h1>
-              <p className="hero-desc text-[white] text-sm md:text-3xl font-medium">
+              <p className="hero-desc text-[white] text-xs md:text-2xl lg:text-3xl font-medium">
                 {/* Birinchi navli bug'doy uni */}
-                Kompaniyasi O'zbekiston bozorida eng yirik un ishlab
-                chiqaruvchilardan biri hisoblanadi.
+                "Grand Mill Group" -bu O`zbekistondagi eng zamonaviy
+                tegirmonlardan biri bo`lib, o`z mahsulotlarini dunyoning eng
+                zamonaviy ,jahon standartlariga to`liq javob beradigan
+                texnologiyalar yordamida ishlab chiqaradi.Bu tegirmonimiz
+                sutkasiga 200 tonna bug`doyni qayta ishlash uchun mo`jallangan
+                bo`lib O`rta Osiyoda tajribaga ega bolgan "IMAS MAKINA" turk
+                firmasi texnikalaridan qurilgan va 2023 yil boshidan o`z ish
+                faolyatini boshladi.
               </p>
             </div>
           </div>

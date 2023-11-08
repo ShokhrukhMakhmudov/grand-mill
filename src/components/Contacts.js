@@ -37,23 +37,36 @@ function Contacts() {
               <p>Email:</p>
               <p className="text-white">example@gmail.com</p>
             </div>
-            <div className="text-black text-xl sm:text-2xl font-medium  border-b-2">
-              <p>Telefon raqam:</p>
+            <div className="text-black flex flex-col text-xl sm:text-2xl font-medium  border-b-2">
+              <p>Telefon raqamlar:</p>
               <Link
-                href="tel:+998909999999"
+                href="tel:+998904088222"
                 className="text-white hover:text-[#8b6726]">
-                +998 90 999 99 99
+                +998 90 408 82 22
+              </Link>
+              <Link
+                href="tel:+998902746000"
+                className="text-white hover:text-[#8b6726]">
+                +998 90 274 60 00
+              </Link>
+              <Link
+                href="tel:+998939739009"
+                className="text-white hover:text-[#8b6726]">
+                +998 93 973 90 09
               </Link>
             </div>
             <div className="text-black text-xl sm:text-2xl font-medium border-b-2">
               <p>Manzil:</p>
-              <p className="text-white">Farg'ona shaxar, lorem ipsum 7</p>
+              <p className="text-white">
+                Fargona viloyati, Furqat tumani, Navbaxor shaxarchasi
+                temiryolchi ko'chasi 12-uy
+              </p>
             </div>
           </div>
           <div className="w-full lg:w-1/2">
             <iframe
               className="w-full"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1315.3031017652781!2d71.77777804390132!3d40.38053379457185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb8538bfb23ed1%3A0xb7f3007af994487e!2s%22Ohu%22%20National%20Meals%20Restaurant!5e0!3m2!1sru!2s!4v1699282758701!5m2!1sru!2s"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3034.339321154081!2d70.77196007594281!3d40.489879051184204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDI5JzIzLjYiTiA3MMKwNDYnMjguMyJF!5e0!3m2!1sru!2s!4v1699422897318!5m2!1sru!2s"
               width="600"
               height="450"
               loading="lazy"
