@@ -21,6 +21,4 @@ export const WHEATS = [
   require("../../public/wheat-1.png").default,
   require("../../public/wheat-plant.png").default,
   require("../../public/grain.png").default,
-  require("../../public/wheat.png").default,
-  require("../../public/wheat-sack.png").default,
 ];
