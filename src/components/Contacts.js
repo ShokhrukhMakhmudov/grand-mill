@@ -35,7 +35,7 @@ function Contacts() {
           <div className="bg-[#ecb657] p-5 sm:p-10 flex flex-col gap-10 w-full lg:w-1/2 ">
             <div className="text-black text-xl sm:text-2xl font-medium border-b-2">
               <p>Email:</p>
-              <p className="text-white">example@gmail.com</p>
+              <p className="text-white">grandmillgroup@gmail.com </p>
             </div>
             <div className="text-black flex flex-col text-xl sm:text-2xl font-medium  border-b-2">
               <p>Telefon raqamlar:</p>
