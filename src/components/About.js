@@ -61,7 +61,7 @@ const About = () => {
           </p>
         </div>
         <section className="w-full relative">
-          {<BackgroundVideo /> ?? "Loading"}
+          <BackgroundVideo />
           <div className="absolute bg-[#000000a2] top-0 bottom-0 left-0 right-0 flex items-center justify-center">
             <div className="text-white w-full p-3 sm:w-3/5 sm:text-center">
               <h1
